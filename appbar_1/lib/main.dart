@@ -32,6 +32,9 @@ class Home extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
+        actions: [
+          Icon(Icons.notifications),
+        ],
       ),
     );
   }
@@ -46,8 +49,13 @@ class Profile extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Profile",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(
+            color: Colors.white,
+          ),
         ),
+        actions: [
+          Icon(Icons.delete),
+        ],
       ),
     );
   }
